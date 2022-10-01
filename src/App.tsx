@@ -318,7 +318,15 @@ function App() {
       examples: [
         {
           code: `const video = useYoutube("Never gonna give you up")`,
-          value: <button onClick={() => { useYoutube("Never gonna give you up") }}>Search on youtube</button>,
+          value: (
+            <button
+              onClick={() => {
+                useYoutube("Never gonna give you up")
+              }}
+            >
+              Search on youtube
+            </button>
+          ),
         },
       ],
       githubUsername: "ronnapatp",
